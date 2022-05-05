@@ -1,0 +1,13 @@
+[Unit]
+Description=bot
+After=network.service
+
+[Service]
+User=root
+Type=simple
+Restart=always
+ExecStart=/root/Stress-tester/dos.sh
+WorkingDirectory=/root/Stress-tester
+
+[Install]
+WantedBy=multi-user.target

